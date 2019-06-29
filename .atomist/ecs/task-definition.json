@@ -6,7 +6,7 @@
         "command": [
             "CMD-SHELL",
             "wget -O /dev/null http://fakehost2:8080 || exit 1",
-        ],
-    },
-}],
+        ]
+    }
+}]
 }
