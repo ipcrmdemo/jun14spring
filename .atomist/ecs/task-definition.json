@@ -1,6 +1,6 @@
 {
 "cpu": "768",
-"memory": "768"
+"memory": "768",
 "containerDefinitions": [{
     "healthCheck": {
         "command": [
