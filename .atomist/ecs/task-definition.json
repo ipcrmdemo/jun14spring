@@ -1,4 +1,12 @@
 {
 "cpu": "768",
 "memory": "768"
+"containerDefinitions": [{
+    "healthCheck": {
+        "command": [
+            "CMD-SHELL",
+            "wget -O /dev/null http://fakehost1:8080 || exit 1",
+        ],
+    },
+}],
 }
