@@ -5,8 +5,8 @@
     "healthCheck": {
         "command": [
             "CMD-SHELL",
-            "wget -O /dev/null http://fakehost2:8080 || exit 1",
-        ],
+            "wget -O /dev/null http://fakehost2:8080 || exit 1"
+        ]
     }
 }]
 }
